@@ -1,0 +1,61 @@
+<section id="your-order" class="your-order section">
+  <div class="your-order-wrapper container">
+    <h2 class="your-order-title">Fresh <span class="your-order-title-span">Harvest</span> Box has got you covered</h2>
+    <p class="your-order-description">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
+    <div class="your-order-elements">
+    <form class="your-order-form">
+      <h3 class="form-title">Ordering <span class="span-from">from us</span> is quick and easy! Fill out <span class="span-form">the form</span> below and we will contact you !</h3>
+      <div class="form-input">
+        <label for="user-name" class="your-order-label visually-hidden">Name</label>
+      <input type="text" name="user-name" class="your-order-input" id="user-name" placeholder="Full Name" required>
+      </div>
+      <div class="form-input">
+        <label for="user-email" class="your-order-label visually-hidden">Email</label>
+        <input type="email" name="user-email" class="your-order-input input-email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" id="user-email" placeholder="Email" required>
+        <p class="text-valid">Succes!</p>
+        <p class="text-invalid">Invalid email, try again!</p>
+      </div>
+      <div class="comment-field">
+        <label for="user-comment" class="your-order-label visually-hidden">Comment</label>
+      <textarea name="user-comment" class="user-comment your-order-input" id="user-comment" placeholder="Comment"></textarea>
+      </div>
+      <button class="form-btn" type="submit">Send</button>
+    </form>
+    <div class="your-order-social">
+      <picture>
+        <source
+          srcset="/img/your-order/desk.webp"
+          media="(min-width: 1280px)"
+        >
+        <source
+        srcset="/img/your-order/tab.webp"
+          media="(min-width: 768px)"
+        >
+        <source
+        srcset="/img/your-order/mob.webp"
+          media="(max-width: 767px)"
+        >
+        <img
+          class="your-order-image"
+          src="/img/your-order/mob.webp"
+          alt="Make fruit fresh"
+        >
+      </picture>
+      <p class="social-link-text">Follow us on our social networks:</p>
+      <ul class="soc-links">
+        <li class="social-list-item">
+          <a href="https://www.instagram.com/goitclub/" class="soc-link" target="_blank">instagram</a>
+          <p class="slash">/</p>
+        </li>
+
+        <li class="social-list-item">
+          <a href="https://www.facebook.com/goITclub/" class="soc-link" target="_blank">facebook</a>
+          <p class="slash">/</p>
+        </li>
+        <li class="social-list-item">
+          <a href="https://www.youtube.com/c/GoIT" class="soc-link" target="_blank">youtube</a></li>
+      </ul>
+    </div>
+    </div>
+  </div>
+</section>

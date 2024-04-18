@@ -1,0 +1,134 @@
+.hero-sect-bcg {
+  background-color: #576F35;
+}
+
+.hero {
+  background-color: #576F35;
+  padding-top: 100px;
+  padding-bottom: 370px;
+  max-width: 375px;
+  background-image: url(../img/hero-img/hero1x-mob.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-container {
+  margin-bottom: 40px;
+}
+/* 
+.hero-bg-cont {
+  max-width: 375px;
+  height: 370px;
+  background-image: url(../img/hero-img/hero1x-mob.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/hero-img/hero2x-mob.webp);
+  }
+}
+
+.hero-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: inherit;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  color: inherit;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 122px;
+  }
+
+  .hero-container {
+    margin-bottom: 40px;
+    margin-bottom: 50px;
+  }
+
+  .hero{
+    max-width: 768px;
+    padding-bottom: 539px;
+    background-image: url(../img/hero-img/hero1x-tab.webp);
+  }
+
+  @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero-bg-cont {
+    background-image: url(../img/hero-img/hero2x-tab.webp);
+    }
+  }
+
+  .hero-title {
+    font-size: 76px;
+    margin-bottom: 25px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+    line-height: 1.2;
+    max-width: 603px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  /* .hero-bg-cont {
+    display: none;
+  } */
+
+  .hero {
+    background-image: linear-gradient(
+      to right,
+      #576f35 50%,
+      transparent 50%
+      ),
+      url(../img/hero-img/hero1x-desk.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    z-index: -1;
+    padding-top: 154px;
+    padding-bottom: 50px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 228px;
+  }
+
+  .hero-title {
+    margin-bottom: 128px;
+    max-width: 502px;
+  }
+
+  .hero-text {
+    max-width: 472px;
+    margin-bottom: 0;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+        to right,
+        #576f35 50%,
+        transparent 50%
+        ),
+        url(../img/hero-img/hero2x-desk.webp);
+    }
+  }
+}
