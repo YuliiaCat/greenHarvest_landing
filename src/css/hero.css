@@ -5,34 +5,26 @@
 .hero {
   background-color: #576F35;
   padding-top: 100px;
-  padding-bottom: 370px;
-  max-width: 375px;
-  background-image: url(../img/hero-img/hero1x-mob.webp);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center bottom;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hero-container {
   margin-bottom: 40px;
 }
-/* 
+
 .hero-bg-cont {
   max-width: 375px;
   height: 370px;
-  background-image: url(../img/hero-img/hero1x-mob.webp);
+  background-image: url(../img/hero/hero1x-mob.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
   margin-left: auto;
   margin-right: auto;
-} */
+}
 
 @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .hero {
-    background-image: url(../img/hero-img/hero2x-mob.webp);
+  .hero-bg-cont {
+    background-image: url(../img/hero/hero2x-mob.webp);
   }
 }
 
@@ -63,15 +55,15 @@
     margin-bottom: 50px;
   }
 
-  .hero{
+  .hero-bg-cont{
     max-width: 768px;
-    padding-bottom: 539px;
-    background-image: url(../img/hero-img/hero1x-tab.webp);
+    height: 539px;
+    background-image: url(../img/hero/hero1x-tab.webp);
   }
 
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-bg-cont {
-    background-image: url(../img/hero-img/hero2x-tab.webp);
+    background-image: url(../img/hero/hero2x-tab.webp);
     }
   }
 
@@ -88,9 +80,9 @@
 }
 
 @media screen and (min-width: 1280px) {
-  /* .hero-bg-cont {
+  .hero-bg-cont {
     display: none;
-  } */
+  }
 
   .hero {
     background-image: linear-gradient(
@@ -98,7 +90,7 @@
       #576f35 50%,
       transparent 50%
       ),
-      url(../img/hero-img/hero1x-desk.webp);
+      url(../img/hero/hero1x-desk.webp);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -128,7 +120,7 @@
         #576f35 50%,
         transparent 50%
         ),
-        url(../img/hero-img/hero2x-desk.webp);
+        url(../img/hero/hero2x-desk.webp);
     }
   }
 }
