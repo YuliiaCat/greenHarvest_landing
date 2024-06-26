@@ -1,3 +1,4 @@
+Green Harvest is a website crafted to make buying premium organic vegetables online easy and enjoyable. We've used modern web development techniques to create a smooth and user-friendly experience. Whether you're browsing our selection or checking out, every part of the site responds instantly to what you do, making your journey hassle-free and intuitive.
 HTML: Used for structuring the content of the webpage.
 
 CSS: Used for styling the HTML elements to control their appearance and animations.
